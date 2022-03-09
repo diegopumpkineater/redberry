@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.span-txt-div {
+  position: absolute;
+  width: 1066px;
+  height: 191px;
+  left: 427px;
+  top: 444px;
+}
+.ty-txt {
+  font-family: Rowdies;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}

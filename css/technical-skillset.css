@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.left-side {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  left: 0;
+  background-color: white;
+}
+
+.right-side {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+  background-color: black;
+}
+
+.left-text-div {
+  position: absolute;
+  width: 716px;
+  height: 128px;
+  left: 105px;
+  top: 97px;
+}
+
+.left-text {
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
+
+.skill-div {
+  position: absolute;
+  width: 455px;
+  height: 54px;
+  left: 235px;
+  top: 390px;
+  background: #ffffff;
+  /* Primary Stroke */
+  border: 1px solid #525557;
+  box-sizing: border-box;
+}
+
+.skills-input {
+  position: absolute;
+  width: 380px;
+  height: 24px;
+  left: 57px;
+  top: 13px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* display: flex; */
+  align-items: center;
+  border: none;
+  padding-right: 160px;
+  color: #454545;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.arrow {
+  position: absolute;
+  width: 12.02px;
+  height: 7.42px;
+  left: 420px;
+  top: 19px;
+}
+
+.exp-div {
+  position: absolute;
+  width: 455px;
+  height: 54px;
+  left: 235px;
+  top: 481px;
+
+  background: #ffffff;
+  /* Primary Stroke */
+
+  border: 1px solid #525557;
+  box-sizing: border-box;
+}
+
+.exp-input {
+  position: absolute;
+  width: 380px;
+  height: 24px;
+  left: 57px;
+  top: 13px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #454545;
+}
+
+.exp-sumbited-div {
+  position: relative;
+  width: 455px;
+  height: 54px;
+  left: 0px;
+  background: #ffffff;
+  /* Primary Stroke */
+  margin-top: 17px;
+  border: 1px solid #525557;
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.left-faced-button-div {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 341px;
+  top: 921px;
+}
+
+.right-faced-button-div {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 554px;
+  top: 921px;
+}
+
+.left-faced-button {
+  transform: rotate(-180deg);
+}
+
+.button1-div {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 377px;
+  top: 924px;
+}
+.button2-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 411px;
+  top: 924px;
+}
+.button3-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 445px;
+  top: 924px;
+}
+.button4-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 479px;
+  top: 924px;
+}
+.button5-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 513px;
+  top: 924px;
+}
+
+.right-text-div {
+  position: absolute;
+  width: 716px;
+  height: 128px;
+  left: 177px;
+  right: 114px;
+  top: 97px;
+}
+
+.right-text {
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  display: flex;
+  align-items: top;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
+
+.p-div {
+  position: absolute;
+  width: 705px;
+  height: 606px;
+  left: 180px;
+  top: 305px;
+}
+
+.p-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 200%;
+  /* or 48px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.sumbitbutton-div {
+  position: absolute;
+  width: 201px;
+  height: 40px;
+  left: 489px;
+  top: 549px;
+
+  /* Redberry Red */
+
+  background: #fe3b1f;
+}
+
+.sumbitbutton {
+  /* Btn */
+
+  position: absolute;
+  width: 195.57px;
+  height: 17.14px;
+  left: 5px;
+  top: 10.14px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #fe3b1f;
+  border: none;
+  color: #ffffff;
+}
+
+.skill-name {
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding-left: 17px;
+  padding-top: 15px;
+}
+
+.experience-div {
+  position: absolute;
+  width: 175px;
+  height: 23px;
+  left: 88px;
+  top: 0px;
+  color: black;
+}
+
+.experience {
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 101px;
+  color: black;
+}
+
+.delete-button {
+  background: transparent;
+  position: absolute;
+  border: none;
+  padding-top: 11px;
+  padding-left: 415px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+h4 {
+  position: absolute;
+  width: 370px;
+  height: 16px;
+  left: 58px;
+  top: 45px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
+
+.exp-skill-div {
+  position: absolute;
+  width: 455px;
+  left: 235px;
+  top: 620px;
+  margin-bottom: 300px;
+}
+
+.column-exp {
+  padding: 0px;
+  align-items: center;
+  list-style: none;
+  height: 250px;
+  margin-bottom: 300px;
+  overflow: scroll;
+}

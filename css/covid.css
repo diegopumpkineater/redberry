@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.left-side {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  left: 0;
+  background-color: white;
+}
+
+.right-side {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+  background-color: black;
+}
+
+.left-text-div {
+  position: absolute;
+  width: 716px;
+  height: 128px;
+  left: 105px;
+  top: 61px;
+  text-align: center;
+}
+
+.left-text {
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  padding-top: 1px;
+  background: url("../image/calendar.png") no-repeat;
+  width: 18px;
+  height: 20px;
+  border-width: thin;
+}
+.arrow {
+  position: absolute;
+  width: 12.02px;
+  height: 7.42px;
+  left: 420px;
+  top: 19px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.left-faced-button-div {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 341px;
+  top: 921px;
+}
+
+.right-faced-button-div {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 554px;
+  top: 921px;
+}
+
+.left-faced-button {
+  transform: rotate(-180deg);
+}
+
+.button1-div {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 377px;
+  top: 924px;
+}
+.button2-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 411px;
+  top: 924px;
+}
+.button3-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 445px;
+  top: 924px;
+}
+.button4-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 479px;
+  top: 924px;
+}
+.button5-div {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 513px;
+  top: 924px;
+}
+
+.right-text-div {
+  position: absolute;
+  width: 788px;
+  height: 175px;
+  left: 153px;
+  /* right: 114px; */
+  top: 61px;
+}
+
+.right-text {
+  font-family: "Rowdies";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  display: flex;
+  align-items: top;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
+
+.p-div {
+  position: absolute;
+  width: 705px;
+  height: 606px;
+  left: 161px;
+  top: 251px;
+}
+
+.p-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 200%;
+  /* or 48px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.radio-question {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.radio1-div {
+  position: absolute;
+  width: 645px;
+  height: 157px;
+  left: 166px;
+  top: 250px;
+}
+
+.question1-div {
+  position: absolute;
+  top: 35px;
+  left: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.question2-div {
+  position: absolute;
+  top: 62px;
+  left: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.question3-div {
+  position: absolute;
+  top: 89px;
+  left: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.radio2-div {
+  position: absolute;
+  width: 645px;
+  height: 119px;
+  left: 166px;
+  top: 399px;
+}
+
+.covid-date-div {
+  position: absolute;
+  width: 645px;
+  height: 119px;
+  left: 0px;
+  top: 120px;
+}
+
+.date-input-div {
+  position: absolute;
+  width: 455px;
+  height: 54px;
+  top: 35px;
+  background: #ffffff;
+  /* Primary Stroke */
+
+  border: 1px solid #525557;
+  box-sizing: border-box;
+}
+
+.covid-date {
+  position: absolute;
+  width: 382px;
+  height: 24px;
+  left: 57px;
+  top: 13px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: white;
+}
+
+.radio3-div {
+  position: absolute;
+  width: 645px;
+  height: 119px;
+  left: 166px;
+  top: 659px;
+}
+
+.vaccine-date-div {
+  position: absolute;
+  width: 645px;
+  height: 121px;
+  left: 0px;
+  top: 120px;
+}
+
+h4 {
+  position: absolute;
+  width: 370px;
+  height: 16px;
+  left: 8px;
+  top: 70px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
+
+.rad1-h4 {
+  position: absolute;
+  width: 370px;
+  height: 16px;
+  left: 8px;
+  top: 87px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
